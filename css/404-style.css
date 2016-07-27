@@ -1,0 +1,104 @@
+/* Font Google - strong reload time */
+@import url(//fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400);
+
+html, body {
+    position:relative;
+    width:100%;
+    height:100%;
+    background:#e6e6e6;
+    margin:0;
+    padding:0;
+}
+
+#container {
+    position:relative;
+    width:100%;
+    height:480px;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+
+#opacity {
+    position:relative;
+    width:100%;
+    height:480px;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+    background:rgba(0,0,0,0.7);
+}
+
+#content {
+    position:relative;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+
+#header {
+    position:relative;
+    width:150px;
+    height:150px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    -ms-border-radius:75px;
+    -o-border-radius:75px;
+    border-radius:75px;
+    background:url(../cydiarepo/CydiaIcon.png) no-repeat center;
+    background-size:cover;
+    margin:0 auto;
+}
+
+img {
+    opacity:0;
+    -webkit-filter:alpha(opacity=0);
+    -moz-filter:alpha(opacity=0);
+    -ms-filter:alpha(opacity=0);
+    -o-filter:alpha(opacity=0);
+    filter:alpha(opacity=0);
+}
+
+h1 {
+    color:#fff;
+    font-size:2.2em;
+    font-family:'Roboto', sans-serif;
+    font-weight:500;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+h1 span{
+    color:#007aff;
+}
+
+hr {
+    width:50%;
+    border-color:#fff;
+}
+
+h2 {
+    color:#fff;
+    font-size:1.5em;
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    text-align:center;
+}
+
+a {
+    text-decoration:none;
+    outline:none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #007aff;
+}
